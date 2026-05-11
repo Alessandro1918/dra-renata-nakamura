@@ -1,13 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8fafc;
+  --foreground: #1e293b;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  /* extended scheme; will create tailwind named vars: */
+  /* --color-background: var(--background); */
+  /* --color-foreground: var(--foreground); */
+  /* will also render the little color preview thumbnail @ class usage: */
+  --color-background: #f8fafc;  /* slate-50 */
+  --color-foreground: #1e293b;  /* slate-800 */
+  --color-primary: #0891b2;     /* cyan-600 */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
