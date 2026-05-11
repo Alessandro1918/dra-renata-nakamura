@@ -13,6 +13,7 @@
   --color-background: #f8fafc;  /* slate-50 */
   --color-foreground: #1e293b;  /* slate-800 */
   --color-primary: #0891b2;     /* cyan-600 */
+  --color-secondary: #164e63;   /* cyan-900 */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
