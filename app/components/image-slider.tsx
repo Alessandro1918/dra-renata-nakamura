@@ -34,7 +34,7 @@ export function ImageSlider(props: { images: string[] }) {
   }
 
   return (
-    <div className="mx-auto w-3/4 h-96">
+    <div className="mx-auto w-4/5 sm:w-3/4">
       <Slider 
         arrows
         autoplay

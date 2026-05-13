@@ -3,7 +3,7 @@ export function Footer() {
   const whatsappPhone = 5511996352193
 
   return (
-    <div className="w-full p-8 pb-2">
+    <div className="w-full flex-col p-8 pb-2">
       <div className="flex flex-col gap-2 items-start justify-center">
         <div className="flex flex-col">
           <span className="text-xl underline">
@@ -26,7 +26,7 @@ export function Footer() {
         </span>
       </div>
 
-      <div className="flex justify-center">
+      <div className="mt-4 flex justify-center">
         <span className="text-xs">
           Design e desenvolvimento:{` `}
           <a 
