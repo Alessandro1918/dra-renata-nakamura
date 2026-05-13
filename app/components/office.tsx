@@ -2,8 +2,8 @@ import { ImageSlider } from "./image-slider"
 
 export function Office() {
   return (
-    <div className="w-full p-8 gap-8 flex flex-col zitems-center justify-center">
-      <span className="text-primary text-3xl font-bold">
+    <div className="w-full p-8 gap-8 flex flex-col justify-center bg-foreground">
+      <span className="text-3xl font-bold text-background">
         Consultório:
       </span>
       <ImageSlider 

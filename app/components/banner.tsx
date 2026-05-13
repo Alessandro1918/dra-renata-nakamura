@@ -8,7 +8,7 @@ export function Banner() {
       px-4 sm:px-8 md:px-16
     `}>
       <p className={`
-        z-10 text-primary font-bold 
+        z-10 text-background font-bold 
         text-4xl sm:text-5xl md:text-6xl 
         w-3/4 sm:w-1/2 
       `}>
