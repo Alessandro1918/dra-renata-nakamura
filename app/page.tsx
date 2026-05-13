@@ -1,6 +1,7 @@
 import { Header } from "./components/header"
 import { Banner } from "./components/banner"
 import { Treaments } from "./components/treatments"
+import { Office } from "./components/office"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Banner />
       <Treaments />
+      <Office />
     </div>
   )
 }
