@@ -7,7 +7,7 @@ export function Office() {
         Sobre a Clare Odontologia
       </h2>
       <div className="px-8 flex flex-col md:flex-row gap-8">
-        <div className="order-1 md:order-2 min-w-96 flex flex-col gap-2 items-center justify-center">
+        <div className="order-1 md:order-2 min-w-72 md:min-w-96 flex flex-col gap-2 items-center justify-center">
           <ImageSlider 
             images={[
               "/assets/office/consult1.jpg", 

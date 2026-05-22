@@ -34,7 +34,7 @@ export function ImageSlider(props: { images: string[] }) {
   }
 
   return (
-    <div className="w-96 aspect-auto rounded-lg">
+    <div className="w-90 md:w-96 aspect-auto rounded-lg">
       <Slider 
         arrows
         autoplay
