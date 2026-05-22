@@ -14,7 +14,7 @@ export function ImageSlider(props: { images: string[] }) {
     return (
       <button
         onClick={onClick}
-        className="cursor-pointer absolute left-0 top-1/2 z-10 -translate-y-1/2 p-2 size-12 bg-gray-800/50 text-white font-bold text-2xl"
+        className="flex items-center justify-center cursor-pointer absolute left-0 top-1/2 z-10 -translate-y-1/2 p-2 size-6 bg-gray-800/50 text-white font-bold text-lg"
       >
         {"<"}
       </button>
@@ -26,7 +26,7 @@ export function ImageSlider(props: { images: string[] }) {
     return (
       <button
         onClick={onClick}
-        className="cursor-pointer absolute right-0 top-1/2 z-10 -translate-y-1/2 p-2 size-12 bg-gray-800/50 text-white font-bold text-2xl"
+        className="flex items-center justify-center cursor-pointer absolute right-0 top-1/2 z-10 -translate-y-1/2 p-2 size-6 bg-gray-800/50 text-white font-bold text-lg"
       >
         {">"}
       </button>
@@ -34,11 +34,11 @@ export function ImageSlider(props: { images: string[] }) {
   }
 
   return (
-    <div className="mx-auto w-4/5 sm:w-3/4">
+    <div className="w-96 aspect-auto rounded-lg">
       <Slider 
         arrows
         autoplay
-        autoplaySpeed={5000}  //ms
+        autoplaySpeed={5000}  // step time - ms
         speed={1000} // transition time
         prevArrow={<PrevArrow />}
         nextArrow={<NextArrow />}
@@ -47,7 +47,7 @@ export function ImageSlider(props: { images: string[] }) {
           <img
             key={i}
             src={e}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-lg"
           />
         ))}
       </Slider>
