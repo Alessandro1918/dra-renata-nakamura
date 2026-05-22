@@ -12,9 +12,9 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
       <h1 className="text-3xl sm:text-4xl font-bold">
         DRA. RENATA NAKAMURA
       </h1>
-      <p className="text-lg sm:text-xl text-center">
+      <h3 className="text-lg sm:text-xl text-center">
         Odontologia moderna, integrativa e humanizada em São Paulo
-      </p>
+      </h3>
       <a             
         href={whatsappUrl}
         className="bg-cyan-800 px-8 py-4 rounded-full font-bold"
