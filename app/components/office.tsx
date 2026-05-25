@@ -2,8 +2,8 @@ import { ImageSlider } from "./image-slider"
 
 export function Office() {
   return (
-    <div className="py-8 w-full gap-8 flex flex-col items-center justify-center bg-foreground text-black">
-      <h2 className="text-3xl font-bold text-cyan-800">
+    <div className="py-8 w-full gap-8 flex flex-col items-center justify-center">
+      <h2 className="text-2xl font-bold text-blue-dark">
         Sobre a Clare Odontologia
       </h2>
       <div className="px-8 flex flex-col md:flex-row gap-8">

@@ -10,7 +10,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
   return (
     <a
       href={whatsappUrl}
-      className="bg-cyan-800 px-8 py-4 rounded-full font-bold text-white"
+      className="px-8 py-4 rounded-full bg-blue-dark font-bold text-white"
     >
       {props.text}
     </a>

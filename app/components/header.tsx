@@ -3,8 +3,8 @@ import { ContactButton } from "./contact-button"
 export function Header() {
 
   return (
-    <div className="w-full h-72 gap-8 flex flex-col items-center justify-center">
-      <h1 className="text-3xl sm:text-4xl font-bold">
+    <div className="w-full h-72 gap-8 flex flex-col items-center justify-center bg-blue-light text-white">
+      <h1 className="text-2xl sm:text-4xl font-bold text-nowrap">
         DRA. RENATA NAKAMURA
       </h1>
       <h3 className="text-lg sm:text-xl text-center">
