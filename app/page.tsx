@@ -1,8 +1,8 @@
 import { Header } from "./components/header"
 import { Banner } from "./components/banner"
 import { Doctor } from "./components/doctor"
-import { Treaments } from "./components/treatments"
 import { Office } from "./components/office"
+import { Treaments } from "./components/treatments"
 import { Footer } from "./components/footer"
 
 export default function Home() {
@@ -11,8 +11,8 @@ export default function Home() {
       <Header />
       <Banner />
       <Doctor />
-      <Treaments />
       <Office />
+      <Treaments />
       <Footer />
     </div>
   )

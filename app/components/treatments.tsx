@@ -1,25 +1,17 @@
-const treatments = [
-  "Clínica Geral",
-  "Ortodontia",
-  "Implante",
-  "Prótese",
-  "Endodontia",
-  "Periodontia",
-  "Cirurgia",
-  "Clareamento"
-]
+// const treatments = [ "Clínica Geral", "Ortodontia", "Implante", "Prótese", "Endodontia", "Periodontia", "Cirurgia", "Clareamento" ]
+import treatments from "../../public/treatments.json"
 
 export function Treaments() {
   return (
-    <div className="w-full p-8 flex flex-col gap-4">
-      <span className="text-3xl font-bold">
-        Tratamentos:
-      </span>
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+    <div className="p-8 w-full gap-8 flex flex-col items-center justify-center bg-foreground text-black">
+      <h2 className="text-3xl font-bold text-cyan-800">
+        Tratamentos
+      </h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
         {
-          treatments.map(e => {
+          treatments.map((e, i) => {
             return (
-              <TreatmentItem key={e} name={e}/>
+              <TreatmentItem key={i} {...e}/>
             )
           })
         }
@@ -29,16 +21,19 @@ export function Treaments() {
 }
 
 type TreatmentItemProps = {
-  name: string
+  title: string,
+  description: string
 }
 
-function TreatmentItem({name}: TreatmentItemProps) {
+function TreatmentItem({ title, description }: TreatmentItemProps) {
   return (
-    <div className="flex flex-row items-center gap-2">
-      <div className="w-2 h-4 rounded-full bg-primary" />
+    <div className="p-4 flex flex-col gap-2 bg-white rounded-lg shadow-lg">
       <span className="font-bold">
-        {name}
+        {title}
       </span>
+      <p>
+        {description}
+      </p>
     </div>
   )
 }
