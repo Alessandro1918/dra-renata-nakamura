@@ -7,7 +7,7 @@ export function Treaments() {
       <h2 className="text-3xl font-bold text-cyan-800">
         Tratamentos
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
         {
           treatments.map((e, i) => {
             return (

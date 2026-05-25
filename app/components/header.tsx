@@ -1,11 +1,6 @@
-export function Header() {
+import { ContactButton } from "./contact-button"
 
-  const whatsappPhone = 5511996352193
-  const whatsappText = 
-`Boa tarde!
-Vi o site de vocês, e gostaria de marcar uma consulta.`
-  const whatsappEncodedText = encodeURIComponent(whatsappText)
-  const whatsappUrl = `https://api.whatsapp.com/send/?phone=${whatsappPhone}&text=${whatsappEncodedText}`
+export function Header() {
 
   return (
     <div className="w-full h-72 gap-8 flex flex-col items-center justify-center">
@@ -15,12 +10,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
       <h3 className="text-lg sm:text-xl text-center">
         Odontologia moderna, integrativa e humanizada em São Paulo
       </h3>
-      <a             
-        href={whatsappUrl}
-        className="bg-cyan-800 px-8 py-4 rounded-full font-bold"
-      >
-        Agende sua consulta
-      </a>
+      <ContactButton text="Agende sua consulta" />
     </div>
   )
 }
