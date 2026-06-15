@@ -3,6 +3,7 @@ import { Banner } from "./components/banner"
 import { Doctor } from "./components/doctor"
 import { Office } from "./components/office"
 import { Treaments } from "./components/treatments"
+import { Reviews } from "./components/reviews"
 import { Contact } from "./components/contact"
 import { Footer } from "./components/footer"
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Doctor />
       <Office />
       <Treaments />
+      <Reviews />
       <Contact />
       <Footer />
     </div>

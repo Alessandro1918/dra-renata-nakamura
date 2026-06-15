@@ -1,0 +1,39 @@
+[
+  {
+    "reviewer_name": "Bia Dantas",
+    "reviewer_image": "https://lh3.googleusercontent.com/a-/ALV-UjXf66A8wydoG9hXcIeRl-A30_CpTSqmZ5-Jr-V4ntd5I1tcQYFW=w36-h36-p-rp-mo-br100",
+    "stars": 5,
+    "description": "A melhor clínica que existe em São Paulo🥰🥰. A doutora Renata é uma excelente profissional e a Bruna é um amor de pessoa!! Indico de olhos fechados",
+    "url": "https://maps.app.goo.gl/RmAa1fY3aKpSWuFc9"
+  }, {
+    "reviewer_name": "André da Silva",
+    "reviewer_image": "",
+    "stars": 4,
+    "description": "Tive experiências muito positivas na clínica. A Dra. Renata e a Marisa sempre me atenderam muito bem e de prontidão nas vezes que precisei. A qualidade dos serviços é excelente, o consultório é super organizado e limpo e a localização é ótima! Recomendo a todos.",
+    "url": ""
+  }, {
+    "reviewer_name": "Carlos Gonçalves da Cunha",
+    "reviewer_image": "",
+    "stars": 4,
+    "description": "Tive experiências muito positivas na clínica. A Dra. Renata e a Marisa sempre me atenderam muito bem e de prontidão nas vezes que precisei. A qualidade dos serviços é excelente, o consultório é super organizado e limpo e a localização é ótima! Recomendo a todos.",
+    "url": ""
+  }, {
+    "reviewer_name": "Danilo Gouveia",
+    "reviewer_image": "https://lh3.googleusercontent.com/a-/ALV-UjXf66A8wydoG9hXcIeRl-A30_CpTSqmZ5-Jr-V4ntd5I1tcQYFW=w36-h36-p-rp-mo-br100",
+    "stars": 5,
+    "description": "A melhor clínica que existe em São Paulo🥰🥰. A doutora Renata é uma excelente profissional e a Bruna é um amor de pessoa!! Indico de olhos fechados",
+    "url": "https://maps.app.goo.gl/RmAa1fY3aKpSWuFc9"
+  }, {
+    "reviewer_name": "Marcos Lemos",
+    "reviewer_image": "",
+    "stars": 4,
+    "description": "Tive experiências muito positivas na clínica. A Dra. Renata e a Marisa sempre me atenderam muito bem e de prontidão nas vezes que precisei. A qualidade dos serviços é excelente, o consultório é super organizado e limpo e a localização é ótima! Recomendo a todos.",
+    "url": ""
+  }, {
+    "reviewer_name": "Maria das Graças",
+    "reviewer_image": "",
+    "stars": 4,
+    "description": "Tive experiências muito positivas na clínica. A Dra. Renata e a Marisa sempre me atenderam muito bem e de prontidão nas vezes que precisei. A qualidade dos serviços é excelente, o consultório é super organizado e limpo e a localização é ótima! Recomendo a todos.",
+    "url": ""
+  }
+]

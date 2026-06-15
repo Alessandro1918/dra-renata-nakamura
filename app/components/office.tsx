@@ -20,7 +20,7 @@ export function Office() {
         </div>
         <p className="order-2 md:order-1 text-justify whitespace-pre-wrap">      
 {`A Clare Odontologia nasceu com a proposta de oferecer uma odontologia diferenciada e moderna, focada não apenas no sorriso, mas também no bem-estar e na saúde integral, de forma acolhedora e personalizada, enxergando cada paciente de forma única.
-Além da atuação da Dra. Renata Nakamura, a clínica conta com uma equipe de profissionais especialistas em diferentes áreas da odontologia.
+Além da atuação como responsável técnica, a clínica conta com uma equipe de profissionais especialistas em diferentes áreas da odontologia.
 Essa integração entre especialidades permite proporcionar tratamentos mais completos, individualizados e eficientes, entregando excelência clínica, conforto e cuidado em cada etapa.
 O ambiente foi pensado para oferecer uma experiência sofisticada, tranquila e humanizada, unindo tecnologia e bem-estar.
 Cada paciente é atendido de forma individualizada, respeitando suas necessidades, objetivos e estilo de vida.`}
