@@ -1,0 +1,39 @@
+[
+  {
+    "reviewer_name": "Bia Dantas",
+    "reviewer_image": "https://lh3.googleusercontent.com/a-/ALV-UjXf66A8wydoG9hXcIeRl-A30_CpTSqmZ5-Jr-V4ntd5I1tcQYFW=w36-h36-p-rp-mo-br100",
+    "stars": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    "url": "https://maps.app.goo.gl/RmAa1fY3aKpSWuFc9"
+  }, {
+    "reviewer_name": "André da Silva",
+    "reviewer_image": "",
+    "stars": 4,
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "url": ""
+  }, {
+    "reviewer_name": "Carlos Gonçalves da Cunha",
+    "reviewer_image": "",
+    "stars": 4,
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "url": ""
+  }, {
+    "reviewer_name": "Danilo Gouveia",
+    "reviewer_image": "",
+    "stars": 5,
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": "https://maps.app.goo.gl/RmAa1fY3aKpSWuFc9"
+  }, {
+    "reviewer_name": "Marcos Lemos",
+    "reviewer_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdSwaJoDjL3nKoZ4-ki3Obes1lB8LxsHG3Kw&s",
+    "stars": 4,
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "url": ""
+  }, {
+    "reviewer_name": "Maria das Graças",
+    "reviewer_image": "",
+    "stars": 4,
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "url": ""
+  }
+]
