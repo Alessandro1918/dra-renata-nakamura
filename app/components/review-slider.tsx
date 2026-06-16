@@ -1,4 +1,5 @@
 "use client"
+import { useState, useEffect } from "react"
 // from npm package "react-slick":
 import Slider from "react-slick"
 // import dynamic from "next/dynamic"
@@ -19,7 +20,17 @@ type ReviewProps = {
 
 export function ReviewSlider(props: { reviews: ReviewProps[] }) {
 
-  const isDesktop = window.matchMedia("(min-width: 640px)").matches
+  const [ isDesktop, setIsDesktop ] = useState(false)
+
+  useEffect(() => {
+    const media = window.matchMedia("(min-width: 640px)")
+    function update() {
+      setIsDesktop(media.matches)
+    }
+    update()
+    media.addEventListener("change", update)
+    return () => media.removeEventListener("change", update)
+  }, [])
 
   return (
     <div className="w-full">
