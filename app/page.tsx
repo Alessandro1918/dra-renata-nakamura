@@ -2,6 +2,7 @@ import { Header } from "./components/header"
 import { Banner } from "./components/banner"
 import { Doctor } from "./components/doctor"
 import { Office } from "./components/office"
+import { Location } from "./components/location"
 import { Treaments } from "./components/treatments"
 import { Reviews } from "./components/reviews"
 import { Contact } from "./components/contact"
@@ -14,6 +15,7 @@ export default function Home() {
       <Banner />
       <Doctor />
       <Office />
+      <Location />
       <Treaments />
       <Reviews />
       <Contact />
