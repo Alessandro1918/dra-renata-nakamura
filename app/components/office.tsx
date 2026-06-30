@@ -15,7 +15,7 @@ export function Office() {
             ]}
           />
           <span className="text-sm">
-            Clare Odontologia - CRO 028624
+            Clare Odontologia - CRO 028.624
           </span>
         </div>
         <p className="order-2 md:order-1 text-justify whitespace-pre-wrap">      
