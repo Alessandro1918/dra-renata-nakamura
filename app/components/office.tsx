@@ -1,4 +1,4 @@
-import { ImageSlider } from "./image-slider"
+import { OfficeSlider } from "./office-slider"
 
 export function Office() {
   return (
@@ -8,7 +8,7 @@ export function Office() {
       </h2>
       <div className="px-8 flex flex-col md:flex-row gap-8">
         <div className="order-1 md:order-2 min-w-72 md:min-w-96 flex flex-col gap-2 items-center justify-center">
-          <ImageSlider 
+          <OfficeSlider 
             images={[
               "/assets/office/consult1.jpg", 
               "/assets/office/consult2.jpg"

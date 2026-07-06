@@ -79,9 +79,13 @@ function Avatar(props: {image?: string, name: string}) {
     <div className="size-12 rounded-full bg-blue-dark flex items-center justify-center">
       {
         props.image
-          ? <img className="size-12 rounded-full" src={props.image} />
-          : <span className="text-white text-xl">{getInitials(props.name)}</span>
+          ? <img className="absolute size-12 rounded-full" src={props.image} />
+          : <span className="absolute text-white text-xl">{getInitials(props.name)}</span>
       }
+      <img 
+        src="/assets/logo-google.png"
+        className="relative size-6 mt-8 ml-8 bg-white rounded-full p-0.5"
+      />
     </div>
   )
 }
