@@ -3,11 +3,11 @@ import treatments from "../../public/treatments.json"
 
 export function Treaments() {
   return (
-    <div className="p-8 w-full gap-8 flex flex-col items-center justify-center">
+    <div className="p-4 sm:p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-3xl font-bold text-blue-dark">
         Tratamentos
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-8">
         {
           treatments.map((e, i) => {
             return (
