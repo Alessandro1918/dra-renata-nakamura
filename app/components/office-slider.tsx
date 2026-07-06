@@ -1,11 +1,13 @@
 "use client"
 // from npm package "react-slick":
-// import Slider from "react-slick"
-import dynamic from "next/dynamic"
-const Slider = dynamic(() => import("react-slick"), { ssr: false })
+import Slider from "react-slick"
+// import dynamic from "next/dynamic"
+// const Slider = dynamic(() => import("react-slick"), { ssr: false })
 // from npm package "slick-carousel":
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa"
 
 export function OfficeSlider(props: { images: string[] }) {
 
@@ -14,9 +16,10 @@ export function OfficeSlider(props: { images: string[] }) {
     return (
       <button
         onClick={onClick}
-        className="flex items-center justify-center cursor-pointer absolute left-0 top-1/2 z-10 -translate-y-1/2 p-2 size-6 bg-gray-800/50 text-white font-bold text-lg"
+        className="flex items-center justify-center cursor-pointer absolute left-0 top-1/2 z-10 -translate-y-1/2 rounded-r-lg size-6 bg-gray-600/50 text-white font-bold text-lg"
       >
-        {"<"}
+        {/* {"<"} */}
+        <FaAngleLeft className="size-5" />
       </button>
     )
   }
@@ -26,15 +29,16 @@ export function OfficeSlider(props: { images: string[] }) {
     return (
       <button
         onClick={onClick}
-        className="flex items-center justify-center cursor-pointer absolute right-0 top-1/2 z-10 -translate-y-1/2 p-2 size-6 bg-gray-800/50 text-white font-bold text-lg"
+        className="flex items-center justify-center cursor-pointer absolute right-0 top-1/2 z-10 -translate-y-1/2 rounded-l-lg size-6 bg-gray-600/50 text-white font-bold text-lg"
       >
-        {">"}
+        {/* {">"} */}
+        <FaAngleRight className="size-5" />
       </button>
     )
   }
 
   return (
-    <div className="w-90 md:w-96 aspect-auto rounded-lg">
+    <div className="w-90 md:w-96 aspect-auto rounded-lg overflow-hidden">
       <Slider 
         arrows
         autoplay
@@ -47,7 +51,7 @@ export function OfficeSlider(props: { images: string[] }) {
           <img
             key={i}
             src={e}
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full"
           />
         ))}
       </Slider>
