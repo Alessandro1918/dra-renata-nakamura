@@ -7,7 +7,7 @@ const Slider = dynamic(() => import("react-slick"), { ssr: false })
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
-export function ImageSlider(props: { images: string[] }) {
+export function OfficeSlider(props: { images: string[] }) {
 
   function PrevArrow(props: any) {
     const { onClick } = props
