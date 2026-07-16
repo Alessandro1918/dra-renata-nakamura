@@ -76,15 +76,15 @@ function Avatar(props: {image?: string, name: string}) {
     return `${name.split(" ")[0][0]}${name.split(" ")[name.split(" ").length-1][0]}`
   }
   return (
-    <div className="size-12 rounded-full bg-blue-dark flex items-center justify-center">
+    <div className="relative size-12 rounded-full bg-blue-dark flex items-center justify-center">
       {
         props.image
-          ? <img className="absolute size-12 rounded-full" src={props.image} />
-          : <span className="absolute text-white text-xl">{getInitials(props.name)}</span>
+          ? <img className="size-12 rounded-full" src={props.image} />
+          : <span className="text-white text-xl">{getInitials(props.name)}</span>
       }
       <img 
         src="/assets/logo-google.png"
-        className="relative size-6 mt-8 ml-8 bg-white rounded-full p-0.5"
+        className="absolute size-6 mt-8 ml-8 bg-white rounded-full p-0.5"
       />
     </div>
   )
