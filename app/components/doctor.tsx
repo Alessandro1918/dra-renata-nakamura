@@ -1,10 +1,10 @@
 export function Doctor() {
   return (
-    <div className="py-8 w-full gap-8 flex flex-col items-center justify-center">
+    <div className="p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-3xl font-bold text-blue-dark">
         Sobre a Doutora
       </h2>
-      <div className="px-8 flex flex-col md:flex-row gap-8">
+      <div className="flex flex-col md:flex-row gap-8">
         <div className="min-w-72 md:min-w-96 flex flex-col gap-2 items-center justify-center">
           <img
             src="/assets/doctor.png"
