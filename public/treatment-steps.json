@@ -1,0 +1,28 @@
+[
+  {
+    "index": "01",
+    "icon": "/assets/icons/treatment/1.svg",
+    "title": "Avaliação inicial",
+    "description": "Entendemos suas necessidades e objetivos"
+  }, {
+    "index": "02",
+    "icon": "/assets/icons/treatment/2.svg",
+    "title": "Escaneamento digital",
+    "description": "Exames modernos e sem desconforto"
+  }, {
+    "index": "03",
+    "icon": "/assets/icons/treatment/3.svg",
+    "title": "Planejamento",
+    "description": "Apresentamos as melhores opções de tratamento para o seu caso"
+  }, {
+    "index": "04",
+    "icon": "/assets/icons/treatment/4.svg",
+    "title": "Início do tratamento",
+    "description": "Cada etapa é realizada com segurança e tecnologia"
+  }, {
+    "index": "05",
+    "icon": "/assets/icons/treatment/5.svg",
+    "title": "Acompanhamento",
+    "description": "Seguimos juntos até alcançarmos o resultado desejado"
+  }
+]
