@@ -8,6 +8,7 @@ import { Treaments } from "./components/treatments"
 import { Reviews } from "./components/reviews"
 import { Contact } from "./components/contact"
 import { Footer } from "./components/footer"
+import { TreatmentStepByStep } from "./components/treatment-step-by-step"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Office />
       <Location />
       <Treaments />
+      <TreatmentStepByStep />
       <Reviews />
       <Contact />
       <Footer />
