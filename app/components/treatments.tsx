@@ -1,5 +1,5 @@
 // const treatments = [ "Clínica Geral", "Ortodontia", "Implante", "Prótese", "Endodontia", "Periodontia", "Cirurgia", "Clareamento" ]
-import treatments from "../../public/treatments.json"
+import treatments from "@/app/data/treatments.json"
 
 export function Treaments() {
   return (
@@ -9,9 +9,9 @@ export function Treaments() {
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-8">
         {
-          treatments.map((e, i) => {
+          treatments.map(e => {
             return (
-              <TreatmentItem key={i} {...e}/>
+              <TreatmentItem key={e.title} {...e}/>
             )
           })
         }
