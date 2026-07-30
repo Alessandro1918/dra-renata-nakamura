@@ -1,4 +1,4 @@
-import steps from "../../public/treatment-steps.json"
+import steps from "@/app/data/treatment-steps.json"
 import { TreatmentSlider } from "./treatment-slider"
 import { TreatmentStep } from "./treatment-step"
 
@@ -21,9 +21,9 @@ export function TreatmentStepByStep() {
         w-full px-8
       `}>
         {
-          steps.map((e, i) => {
+          steps.map(e => {
             return (
-              <TreatmentStep key={i} {...e}/>
+              <TreatmentStep key={e.index} {...e}/>
             )
           })
         }

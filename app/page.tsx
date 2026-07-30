@@ -3,7 +3,6 @@ import { Banner } from "./components/banner"
 import { DoctorHighLights } from "./components/doctor-highlights"
 import { Doctor } from "./components/doctor"
 import { Office } from "./components/office"
-import { Location } from "./components/location"
 import { Treaments } from "./components/treatments"
 import { Reviews } from "./components/reviews"
 import { Contact } from "./components/contact"
@@ -18,7 +17,6 @@ export default function Home() {
       <DoctorHighLights />
       <Doctor />
       <Office />
-      <Location />
       <Treaments />
       <TreatmentStepByStep />
       <Reviews />

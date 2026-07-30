@@ -1,4 +1,4 @@
-import reviews from "../../public/reviews.json"
+import reviews from "@/app/data/reviews.json"
 import { ReviewSlider } from "./review-slider"
 
 export function Reviews() {
