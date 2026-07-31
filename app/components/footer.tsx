@@ -9,10 +9,8 @@ export function Footer() {
   return (
     <div className="w-full flex-col p-8 pb-2 bg-blue-light text-white">
       <div className="flex flex-col lg:flex-row gap-4 justify-between">
-        <div className="w-full order-1 lg:order-2 flex flex-col gap-4">
-          <div className="flex-1">
-            <ReactGoogleMaps />
-          </div>
+        <div className="w-full lg:w-2/3 order-1 lg:order-2 flex flex-col gap-4">
+          <ReactGoogleMaps />
 
           <div className="flex flex-col">
             <span>Av. Diederichsen, 1.256 (sala 01) - Vila Guarani, São Paulo</span>
@@ -43,7 +41,7 @@ export function Footer() {
           <div className="bg-white w-1/2 h-px mx-auto visible lg:hidden"/>
         </div>
 
-        <div className="order-2 lg:order-1 flex flex-col items-start justify-center">
+        <div className="w-full lg:w-1/3 order-2 lg:order-1 flex flex-col items-start justify-center">
           <span className="text-xl font-bold">
             Dra. Renata Nakamura
           </span>

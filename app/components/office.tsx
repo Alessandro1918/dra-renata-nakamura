@@ -3,7 +3,7 @@ import { OfficeSlider } from "./office-slider"
 export function Office() {
   return (
     <div className="p-8 w-full gap-8 flex flex-col items-center justify-center">
-      <h2 className="text-2xl font-bold text-blue-dark">
+      <h2 className="text-blue-dark text-3xl font-bold text-center">
         Sobre a Clare Odontologia
       </h2>
       <div className="flex flex-col md:flex-row gap-8">
@@ -20,9 +20,13 @@ export function Office() {
         </div>
         <p className="order-2 md:order-1 text-justify whitespace-pre-wrap">      
 {`A Clare Odontologia nasceu com a proposta de oferecer uma odontologia diferenciada e moderna, focada não apenas no sorriso, mas também no bem-estar e na saúde integral, de forma acolhedora e personalizada, enxergando cada paciente de forma única.
+
 Além da atuação como responsável técnica, a clínica conta com uma equipe de profissionais especialistas em diferentes áreas da odontologia.
+
 Essa integração entre especialidades permite proporcionar tratamentos mais completos, individualizados e eficientes, entregando excelência clínica, conforto e cuidado em cada etapa.
+
 O ambiente foi pensado para oferecer uma experiência sofisticada, tranquila e humanizada, unindo tecnologia e bem-estar.
+
 Cada paciente é atendido de forma individualizada, respeitando suas necessidades, objetivos e estilo de vida.`}
         </p>
       </div>

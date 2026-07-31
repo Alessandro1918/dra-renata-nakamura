@@ -49,7 +49,7 @@ export function ReactGoogleMaps() {
   return (
     <div 
       ref={mapRef} 
-      className="w-96 h-48 bg-gray-400"
+      className="w-full h-48 bg-gray-400"
     />
   )
 }
