@@ -9,7 +9,13 @@ import "slick-carousel/slick/slick-theme.css"
 
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa"
 
-export function ClinicSlider(props: { images: string[] }) {
+type ClinicItemProps = {
+  src: string,
+  description: string
+}
+
+// export function ClinicSlider(props: { images: string[] }) {
+export function ClinicSlider(props: {images: ClinicItemProps[]}) {
 
   function PrevArrow(props: any) {
     const { onClick } = props
@@ -47,11 +53,15 @@ export function ClinicSlider(props: { images: string[] }) {
         prevArrow={<PrevArrow />}
         nextArrow={<NextArrow />}
       >
-        {props.images.map((e, i) => (
+        {/* {props.images.map(e => ( */}
+        {props.images.map(e => (
           <img
-            key={i}
-            src={e}
-            className="w-full h-full"
+            key={e.description}
+            src={e.src}
+            alt={e.description}
+            title={e.description}
+            className="w-full h-full" // images 2:1
+            // className="w-full min-w-72 md:min-w-96 max-h-52 md:max-h-64 object-cover" // images 1:2, to be cropped 2:1
           />
         ))}
       </Slider>

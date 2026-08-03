@@ -1,0 +1,21 @@
+[
+  {
+    "src": "/assets/clinic/consultorio.jpg",
+    "description": "Consultório - Cadeira"
+  }, {
+    "src": "/assets/clinic/recepcao.jpg",
+    "description": "Recepção"
+  }, {
+    "src": "/assets/clinic/espera.jpg",
+    "description": "Sala de Espera"
+  }, {
+    "src": "/assets/clinic/armarios.jpg",
+    "description": "Consultório - Armários"
+  }, {
+    "src": "/assets/clinic/corredor.jpg",
+    "description": "Corredor"
+  }, {
+    "src": "/assets/clinic/porta.jpg",
+    "description": "Porta"
+  }
+]

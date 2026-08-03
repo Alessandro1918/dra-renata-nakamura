@@ -1,4 +1,5 @@
 import { ClinicSlider } from "./clinic-slider"
+import images from "@/app/data/clinic.json"
 
 export function Clinic() {
   return (
@@ -9,10 +10,8 @@ export function Clinic() {
       <div className="flex flex-col md:flex-row gap-8">
         <div className="order-1 md:order-2 min-w-72 md:min-w-96 flex flex-col gap-2 items-center justify-center">
           <ClinicSlider 
-            images={[
-              "/assets/office/consult1.jpg", 
-              "/assets/office/consult2.jpg"
-            ]}
+            // images={["foo.jpg", "bar.jpg"]}
+            images={images}
           />
           <span className="text-sm">
             Clare Odontologia - CRO 028.624
