@@ -2,12 +2,12 @@ import { Header } from "./components/header"
 import { Banner } from "./components/banner"
 import { DoctorHighLights } from "./components/doctor-highlights"
 import { Doctor } from "./components/doctor"
-import { Office } from "./components/office"
+import { Clinic } from "./components/clinic"
 import { Treaments } from "./components/treatments"
+import { TreatmentStepByStep } from "./components/treatment-step-by-step"
 import { Reviews } from "./components/reviews"
 import { Contact } from "./components/contact"
 import { Footer } from "./components/footer"
-import { TreatmentStepByStep } from "./components/treatment-step-by-step"
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Banner />
       <DoctorHighLights />
       <Doctor />
-      <Office />
+      <Clinic />
       <Treaments />
       <TreatmentStepByStep />
       <Reviews />

@@ -1,6 +1,7 @@
-import { OfficeSlider } from "./office-slider"
+import { ClinicSlider } from "./clinic-slider"
+import images from "@/app/data/clinic.json"
 
-export function Office() {
+export function Clinic() {
   return (
     <div className="p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-blue-dark text-3xl font-bold text-center">
@@ -8,11 +9,9 @@ export function Office() {
       </h2>
       <div className="flex flex-col md:flex-row gap-8">
         <div className="order-1 md:order-2 min-w-72 md:min-w-96 flex flex-col gap-2 items-center justify-center">
-          <OfficeSlider 
-            images={[
-              "/assets/office/consult1.jpg", 
-              "/assets/office/consult2.jpg"
-            ]}
+          <ClinicSlider 
+            // images={["foo.jpg", "bar.jpg"]}
+            images={images}
           />
           <span className="text-sm">
             Clare Odontologia - CRO 028.624
