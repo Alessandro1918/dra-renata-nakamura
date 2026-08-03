@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css"
 
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa"
 
-export function OfficeSlider(props: { images: string[] }) {
+export function ClinicSlider(props: { images: string[] }) {
 
   function PrevArrow(props: any) {
     const { onClick } = props
