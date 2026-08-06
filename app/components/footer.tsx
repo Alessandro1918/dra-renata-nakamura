@@ -22,7 +22,7 @@ export function Footer() {
             >
               <img 
                 className="size-6 rounded-sm object-cover"
-                src="https://waze-gps-maps-traffic-alerts-sat-nav.br.aptoide.com/_next/image?url=https%3A%2F%2Fcdn.aptoide.com%2Fimgs%2F3%2Fa%2F8%2F3a84d64738faf282d9aac44e0ec8291e_icon.png&w=256&q=75"
+                src="/assets/icons/waze.png"
               />
               Waze
             </a>
@@ -32,7 +32,7 @@ export function Footer() {
             >
               <img 
                 className="size-6"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Google_Maps_icon_%282015-2020%29.svg/960px-Google_Maps_icon_%282015-2020%29.svg.png?_=20200220195824"
+                src="/assets/icons/google-maps.png"
               />
               Google Maps
             </a>
