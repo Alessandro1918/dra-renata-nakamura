@@ -1,6 +1,6 @@
 export function Banner() {
   return (
-    <div className={`
+    <section className={`
       relative flex flex-col items-start justify-center
       bg-[url('/assets/banner.png')]
       w-full bg-cover bg-center
@@ -22,6 +22,6 @@ export function Banner() {
       `}>
         Planejamento individualizado, tecnologia digital e um atendimento acolhedor para transformar seu sorriso com segurança, conforto e resultados que fazem sentido para você
       </p>
-    </div>
+    </section>
   )
 }

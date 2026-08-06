@@ -4,7 +4,7 @@ import { TreatmentStep } from "./treatment-step"
 
 export function TreatmentStepByStep() {
   return (
-    <div className="p-8 w-full gap-8 flex flex-col items-center justify-center">
+    <section className="p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-blue-dark text-3xl font-bold text-center">
         Um passo a passo pensado para você
       </h2>
@@ -28,6 +28,6 @@ export function TreatmentStepByStep() {
           })
         }
       </div>
-    </div>
+    </section>
   )
 }
