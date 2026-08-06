@@ -1,5 +1,6 @@
 // const treatments = [ "Clínica Geral", "Ortodontia", "Implante", "Prótese", "Endodontia", "Periodontia", "Cirurgia", "Clareamento" ]
 import treatments from "@/app/data/treatments.json"
+import { TreatmentItem } from "./treatment-item"
 
 export function Treaments() {
   return (
@@ -16,24 +17,6 @@ export function Treaments() {
           })
         }
       </div>
-    </div>
-  )
-}
-
-type TreatmentItemProps = {
-  title: string,
-  description: string
-}
-
-function TreatmentItem({ title, description }: TreatmentItemProps) {
-  return (
-    <div className="p-4 flex flex-col gap-2 bg-white rounded-lg shadow-lg">
-      <span className="font-bold">
-        {title}
-      </span>
-      <p>
-        {description}
-      </p>
     </div>
   )
 }
