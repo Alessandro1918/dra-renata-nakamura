@@ -4,7 +4,7 @@ import { TreatmentItem } from "./treatment-item"
 
 export function Treaments() {
   return (
-    <div className="p-4 sm:p-8 w-full gap-8 flex flex-col items-center justify-center">
+    <section className="p-4 sm:p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-blue-dark text-3xl font-bold text-center">
         Tratamentos
       </h2>
@@ -17,6 +17,6 @@ export function Treaments() {
           })
         }
       </div>
-    </div>
+    </section>
   )
 }

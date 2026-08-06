@@ -7,7 +7,7 @@ export function Footer() {
   const telPhone = 996352193
 
   return (
-    <div className="w-full flex-col p-8 pb-2 bg-blue-light text-white">
+    <footer className="w-full flex-col p-8 pb-2 bg-blue-light text-white">
       <div className="flex flex-col lg:flex-row gap-4 justify-between">
         <div className="w-full lg:w-2/3 order-1 lg:order-2 flex flex-col gap-4">
           <ReactGoogleMaps />
@@ -102,6 +102,6 @@ export function Footer() {
           </a>
         </span>  
       </div>
-    </div>
+    </footer>
   )
 }

@@ -10,12 +10,12 @@ type HighlightProps = {
 
 export function DoctorHighLights() {
   return (
-    <div className="-mb-8 py-8 w-full grid grid-cols-2 sm:grid-cols-4 items-center justify-center">
+    <section className="-mb-8 py-8 w-full grid grid-cols-2 sm:grid-cols-4 items-center justify-center">
       <Highlight icon={PiGraduationCap} text="Graduada em Odontologia desde 2011"/>
       <Highlight icon={IoRibbonOutline} text="Especialista em Ortodontia desde 2016"/>
       <Highlight icon={RiToothLine} text="Atendimento particular e personalizado"/>
       <Highlight icon={IoDesktopOutline} text="Planejamento digital e scanner intraoral"/>
-    </div>
+    </section>
   )
 }
 

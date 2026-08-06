@@ -3,7 +3,7 @@ import images from "@/app/data/clinic.json"
 
 export function Clinic() {
   return (
-    <div className="p-8 w-full gap-8 flex flex-col items-center justify-center">
+    <section className="p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-blue-dark text-3xl font-bold text-center">
         Sobre a Clare Odontologia
       </h2>
@@ -29,6 +29,6 @@ O ambiente foi pensado para oferecer uma experiência sofisticada, tranquila e h
 Cada paciente é atendido de forma individualizada, respeitando suas necessidades, objetivos e estilo de vida.`}
         </p>
       </div>
-    </div>
+    </section>
   )
 }

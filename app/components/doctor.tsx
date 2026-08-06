@@ -1,6 +1,6 @@
 export function Doctor() {
   return (
-    <div className="p-8 w-full gap-8 flex flex-col items-center justify-center">
+    <section className="p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-blue-dark text-3xl font-bold text-center">
         Sobre a Doutora Renata Nakamura
       </h2>
@@ -24,6 +24,6 @@ Seu diferencial está na abordagem integrada da saúde bucal, considerando não 
 Entre os tratamentos oferecidos estão alinhadores estéticos, ortodontia, planejamento estético e reabilitação do sorriso, além de cuidados preventivos para promover saúde e qualidade de vida.`}
         </p>
       </div>
-    </div>
+    </section>
   )
 }
