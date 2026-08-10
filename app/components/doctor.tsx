@@ -7,7 +7,7 @@ export function Doctor() {
       <div className="flex flex-col md:flex-row gap-8">
         <div className="min-w-72 md:min-w-96 flex flex-col gap-2 items-center justify-center">
           <img
-            src="/assets/doctor.png"
+            src="/assets/doctor.jpg"
             className="aspect-auto rounded-lg"
           />
           <span className="text-sm">
