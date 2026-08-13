@@ -15,13 +15,13 @@ export function Banner() {
       `}>
         Seu sorriso merece um tratamento planejado exclusivamente para você
       </p>
-      <p className={`
+      {/* <p className={`
         z-10 text-blue-dark font-bold 
         text-xs lg:text-lg xl:text-lg 
         w-3/4 lg:w-2/3 xl:w-1/2
       `}>
         Planejamento individualizado, tecnologia digital e um atendimento acolhedor para transformar seu sorriso com segurança, conforto e resultados que fazem sentido para você
-      </p>
+      </p> */}
     </section>
   )
 }
