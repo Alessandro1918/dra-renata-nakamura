@@ -2,7 +2,7 @@ import { TechItem } from "./technology-item"
 
 export function Technology() {
   return (
-    <section className="p-4 sm:p-8 w-full gap-8 flex flex-col lg:flex-row items-center justify-center text-white bg-linear-to-b lg:bg-linear-to-r from-blue-dark to-blue-light to-20%">
+    <section className="p-8 w-full gap-8 flex flex-col lg:flex-row items-center justify-center text-white bg-linear-to-b lg:bg-linear-to-r from-blue-dark to-blue-light to-20%">
       <img 
         src="/assets/dental-scanner.png"
         className="size-64"
