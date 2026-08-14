@@ -44,7 +44,7 @@ export function ClinicSlider(props: {images: ClinicItemProps[]}) {
   }
 
   return (
-    <div className="w-90 md:w-96 aspect-auto rounded-lg overflow-hidden">
+    <div className="w-80 md:w-96 aspect-auto rounded-lg overflow-hidden">
       <Slider 
         arrows
         autoplay

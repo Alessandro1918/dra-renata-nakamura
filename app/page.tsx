@@ -4,6 +4,7 @@ import { DoctorHighLights } from "./components/doctor-highlights"
 import { Doctor } from "./components/doctor"
 import { Clinic } from "./components/clinic"
 import { Treaments } from "./components/treatments"
+import { Technology } from "./components/technology"
 import { TreatmentStepByStep } from "./components/treatment-step-by-step"
 import { Reviews } from "./components/reviews"
 import { Contact } from "./components/contact"
@@ -18,6 +19,7 @@ export default function Home() {
       <Doctor />
       <Clinic />
       <Treaments />
+      <Technology />
       <TreatmentStepByStep />
       <Reviews />
       <Contact />
