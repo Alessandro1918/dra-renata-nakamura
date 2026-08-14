@@ -34,7 +34,7 @@ function Avatar(props: {image?: string, name: string}) {
           : <span className="text-white text-xl">{getInitials(props.name)}</span>
       }
       <img 
-        src="/assets/logo-google.png"
+        src="/assets/icons/logo-google.png"
         className="absolute size-6 mt-8 ml-8 bg-white rounded-full p-0.5"
       />
     </div>
