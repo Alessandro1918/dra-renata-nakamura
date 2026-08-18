@@ -3,7 +3,7 @@ import images from "@/app/data/clinic.json"
 
 export function Clinic() {
   return (
-    <section className="p-8 w-full gap-8 flex flex-col items-center justify-center">
+    <section className="mt-2 p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-blue-dark text-3xl font-bold text-center">
         Sobre a CLARE Odontologia
       </h2>
@@ -17,7 +17,7 @@ export function Clinic() {
             CLARE Odontologia - CRO 028.624
           </span>
         </div>
-        <p className="order-2 md:order-1 text-justify whitespace-pre-wrap">      
+        <p className="order-2 md:order-1 text-justify whitespace-pre-wrap text-base md:text-lg">      
 {`A CLARE Odontologia nasceu com a proposta de oferecer uma odontologia diferenciada e moderna, focada não apenas no sorriso, mas também no bem-estar e na saúde integral, de forma acolhedora e personalizada, enxergando cada paciente de forma única.
 
 Além da atuação como responsável técnica, a clínica conta com uma equipe de profissionais especialistas em diferentes áreas da odontologia.

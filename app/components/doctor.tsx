@@ -1,8 +1,8 @@
 export function Doctor() {
   return (
-    <section className="p-8 w-full gap-8 flex flex-col items-center justify-center">
+    <section className="mt-2 p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-blue-dark text-3xl font-bold text-center">
-        Sobre a Doutora Renata Nakamura
+        Sobre a Dra. Renata Nakamura
       </h2>
       <div className="flex flex-col md:flex-row gap-8">
         <div className="min-w-72 md:min-w-96 flex flex-col gap-2 items-center justify-center">
@@ -14,10 +14,10 @@ export function Doctor() {
             Dra. Renata Nakamura - CROSP 104.277
           </span>
         </div>
-        <p className="text-justify whitespace-pre-wrap">      
+        <p className="text-justify whitespace-pre-wrap text-base md:text-lg">      
 {`A Dra. Renata Nakamura é cirurgiã-dentista formada pela Universidade Metodista de São Paulo e atua desde 2011 oferecendo uma odontologia que une estética, função e bem-estar. Especialista em Ortodontia pela Faculdade São Leopoldo Mandic desde 2016, proporciona tratamentos personalizados, com atendimento humanizado e foco na saúde integral de cada paciente.
 
-Em constante atualização, alia conhecimento científico, tecnologia e planejamento individualizado para oferecer uma experiência acolhedora, confortável e resultados naturais e duradouros.
+Em constante atualização, alia conhecimento científico, tecnologia e planejamento individualizado para oferecer uma experiência acolhedora, confortável e tratamentos planejados de forma individualizada.
 
 Seu diferencial está na abordagem integrada da saúde bucal, considerando não apenas a estética do sorriso, mas também aspectos relacionados à função, respiração e desenvolvimento facial, proporcionando tratamentos mais completos e personalizados.
 

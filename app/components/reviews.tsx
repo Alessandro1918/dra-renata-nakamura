@@ -6,9 +6,9 @@ export function Reviews() {
   reviews.sort(() => Math.random() - 0.5) // Shuffles the array in place
 
   return (
-    <section className="p-8 w-full gap-8 flex flex-col items-center justify-center">
+    <section className="mt-2 p-8 w-full gap-8 flex flex-col items-center justify-center">
       <h2 className="text-3xl font-bold text-blue-dark">
-        Avaliações
+        Depoimentos
       </h2>
       <ReviewSlider 
         reviews={[...reviews]}
