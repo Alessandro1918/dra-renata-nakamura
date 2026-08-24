@@ -8,9 +8,9 @@ export function Contact() {
           Agende sua avaliação
         </h2> */}
         <span>
-          Agende um avaliação e descubra o plano de cuidado mais adequado para o seu sorriso
+          Agende uma avaliação e descubra o plano de cuidado mais adequado para o seu sorriso
         </span>
-        <ContactButton text="Agende sua avaliação" />
+        <ContactButton text="Agende sua consulta" />
       </div>
     </section>
   )
