@@ -76,7 +76,7 @@ export function Footer() {
             CROSP 028.624
           </span>
           <a 
-            href="https://www.instagram.com/dra.renatanakamura"
+            href="https://www.instagram.com/clare.odontologia"
             className="text-sm underline flex flex-row items-center gap-1" 
           >
             <FaInstagram /> clare.odontologia
