@@ -7,8 +7,8 @@ export function Contact() {
         {/* <h2 className="text-2xl font-bold text-blue-dark">
           Agende sua avaliação
         </h2> */}
-        <span>
-          Agende uma avaliação e descubra o plano de cuidado mais adequado para o seu sorriso
+        <span className="text-justify">
+          Agende uma avaliação e descubra o plano de cuidado mais adequado para o seu sorriso!
         </span>
         <ContactButton text="Agende sua consulta" />
       </div>
